@@ -24,7 +24,7 @@ public class Main {
                 int value = sc.nextInt();
                 switch (value) {
                     case 0 -> {
-                        System.out.println("Sair\nObrigado e até breve!!!");
+                        System.out.println("Sair\nAté mais tarde!!!");
                         chave = false;
                     }
                     case 1 -> {
