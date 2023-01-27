@@ -1,10 +1,9 @@
 925 Americanas | Polo Tech Back-End
 
+    2º módulo: [BE-JV-002] PROGRAMAÇÃO ORIENTADA A OBJETOS I
 
-    3º módulo: [BE-JV-003] PROGRAMAÇÃO ORIENTADA A OBJETOS II
+    Início: 19/12/2022
 
-    Início: 23/01
+    Término: 20/01/2023
 
-    Término: 13/02
-    
-    
+ 
