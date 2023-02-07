@@ -3,6 +3,6 @@
 
     3º módulo: [BE-JV-003] PROGRAMAÇÃO ORIENTADA A OBJETOS II
 
-    Início: 23/01
+    Início: 23/01/2023
 
-    Término: 13/02
+    Término: 13/02/2023
