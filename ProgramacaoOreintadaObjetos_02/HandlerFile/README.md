@@ -16,3 +16,9 @@ IV) Para os arquivos do tipo Image: Deverá ser criado um diretório adicional i
 c) “HandlerFile” é uma classe que herda toda a implementação de FolderOrchestrator e FileOrchestrator. Fique a vontade para adicionar novas implementações nesta classe.
 
 obs: ------|> implementa interface; (flecha sem pontilhado) -> herança. 
+
+![image](https://user-images.githubusercontent.com/87396846/217114988-4756248b-99c5-4ecc-a074-195d3203fc8a.png)
+
+![image](https://user-images.githubusercontent.com/87396846/217115024-dcf21326-4955-4d5b-8bb6-e2a333606473.png)
+
+![image](https://user-images.githubusercontent.com/87396846/217115046-ea037097-c617-47b9-b326-e0e995f19f8a.png)
