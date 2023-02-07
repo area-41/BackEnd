@@ -1,6 +1,5 @@
 package br.com.americanas.polotech.ProOri_02.IPhone;
 
-import java.math.BigDecimal;
 import java.util.*;
 
 public class Main {
@@ -10,23 +9,22 @@ public class Main {
      */
     public static void main(String[] args) {
 
-        IPhoneFactory iPhoneX = new IPhoneFactory("I Phone X", 15, 8, 24, BigDecimal.valueOf(7000.0));
-        IPhoneFactory iPhone9 = new IPhoneFactory("I Phone 9", 17, 16, 48, BigDecimal.valueOf(10000.0));
-        IPhoneFactory iPhone13Mini = new IPhoneFactory("I Phone 13 Mini", 13, 8, 24, BigDecimal.valueOf(5000.0));
-        System.out.printf("\nModelo :%s\n", iPhoneX);
-
-        List<IPhoneFactory> listaIPhones = new ArrayList<>();
-        listaIPhones.add(iPhoneX);
-        listaIPhones.add(iPhone9);
-        listaIPhones.add(iPhone13Mini);
-
-        System.out.println("\nLista de I-Phones disponiveis na loja:\n");
-        for (IPhoneFactory iphone : listaIPhones) {
-            System.out.println(iphone);
+        IPhoneFactory iPhoneFactory = new IPhoneFactory();
+        System.out.printf("1 Telefone -> %s\n", iPhoneFactory.cadastrarIPhone(TypeIPhoneEnum.IPHONE_9).exibirDetalhes());
+        System.out.printf("2 Telefone -> %s\n", iPhoneFactory.cadastrarIPhone(TypeIPhoneEnum.IPHONE_X).exibirDetalhes());
+        System.out.printf("3 Telefone -> %s\n", iPhoneFactory.cadastrarIPhone(TypeIPhoneEnum.IPHONE_13_MINI).exibirDetalhes());
+        
+        List<IPhone> listaIPhones = new ArrayList<>();
+        listaIPhones.add(iPhoneFactory.cadastrarIPhone(TypeIPhoneEnum.IPHONE_9));
+        listaIPhones.add(iPhoneFactory.cadastrarIPhone(TypeIPhoneEnum.IPHONE_X));
+        listaIPhones.add(iPhoneFactory.cadastrarIPhone(TypeIPhoneEnum.IPHONE_13_MINI));
+//
+        System.out.println("\nLista de I-Phones disponiveis na loja:");
+        for (IPhone iphone : listaIPhones) {
+            System.out.println(iphone.exibirDetalhes());
         }
 
-//        Collections.sort(listaIPhones);
-
-
+        System.out.printf("\nQuantidade de modelos na loja: %s modelo(s).\n", listaIPhones.size());
+        
     }
 }
