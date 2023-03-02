@@ -1,5 +1,5 @@
-# Back-End
-Polo Tech Americanas &amp; ADA - Back-End
+# Backend
+Polo Tech Americanas &amp; ADA - Backend
 
 
 LÓGICA DE PROGRAMAÇÃO I  -> TWITTER
