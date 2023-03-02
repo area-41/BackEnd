@@ -1,7 +1,7 @@
 
 # WebServlet
 
-## Projeto de web servido usando Java Servlet
+## Projeto de web de servidor TomCat usando Java Servlet
 
 Enunciado
 
