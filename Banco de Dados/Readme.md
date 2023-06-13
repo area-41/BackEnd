@@ -11,3 +11,6 @@ Seguem as informações do módulo:
     
     
 Neste módulo foi utilizado "PostGres" para a criação do banco de dados e o "DBeaver" para as consultas de SQL.
+
+
+Arquivos com exemplos de consultas e códigos em linguagem SQL.
